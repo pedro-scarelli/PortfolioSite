@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedro Scarelli</title>
+    <!-- Css bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <script src="main.js" defer></script>
+    <link rel="icon" type="image/png" href="./imgs/yellow-modified.png" />
+  </head>
+  <body>
+    <button class="scrollTop">
+      <span>
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          color="#F5F5EF"
+          height="2rem"
+          width="2rem"
+          xmlns="http://www.w3.org/2000/svg"
+          style="color: rgb(245, 245, 239)"
+        >
+          <path d="M6 4h12v2H6zm.707 11.707L11 11.414V20h2v-8.586l4.293 4.293 1.414-1.414L12 7.586l-6.707 6.707z"></path>
+        </svg>
+      </span>
+    </button>
+    <div class="intro">
+      <h1 class="name">Pedro Scarelli</h1>
+      <div class="typewriter-container">
+        <p id="typewriter-text"></p>
+      </div>
+      <div class="socials pt-4">
+        <a href="mailto:pedro.virelli@gmail.com" target="_blank">
+          <img src="./imgs/mail.png" alt="mailIcon" class="mailLogo"
+        /></a>
+        <a href="https://www.linkedin.com/in/pedro-scarelli/" target="_blank"
+          ><img src="./imgs/linkedin.png" alt="linkedinIcon" class="linkedinLogo"
+        /></a>
+        <a href="https://github.com/pvscarelli" target="_blank"
+          ><img src="./imgs/github.png" alt="githubIcon" class="githubLogo"
+        /></a>
+      </div>
+      <a href="#apresentation">
+        <img src="./imgs/arrowDown.gif" alt="arrowDownGif" class="arrowDown" />
+      </a>
+    </div>
+    <div class="container aboutme">
+      <div class="row">
+        <div class="col-lg coll apresentationImg">
+          <img src="./imgs/profile-pic.png" alt="fotoDePerfil" class="pfp" />
+        </div>
+        <div class="col-lg coll d-flex justify-content-center align-items-center flex-column">
+          <div class="apresentation" id="apresentation"><p class="text-center">Olá! Eu sou o Pedro</p></div>
+          <p class="apresentationText">
+            Fascinado pelo universo do desenvolvimento desde os 18 anos, brasileiro e nascido em 2004. Atualmente, sou estudante
+            de Ciência da Computação na Universidade Regional de Blumenau. Gosto de desafios que me tiram da minha zona de
+            conforto, porque acredito que devemos estar sempre em constante evolução. Além dos estudos, valorizo muito os momentos
+            em família e, nas horas vagas, gosto de desenvolver projetos pessoais. Tenho uma paixão pelo surf e gosto de ir à
+            academia.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container projects">
+      <h2 class="projectsTitle text-center">Projetos</h2>
+      <div class="projectsContent pt-4">
+        <div class="row">
+          <div class="col-lg coll">
+            <div class="projectItem">
+              <div class="projectItemContent">
+                <a class="projectItem" href="https://github.com/pvscarelli/AppRH" target="_blank">
+                  <div class="heading d-flex justify-content-between">
+                    <div>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 16 16"
+                        color="#373738"
+                        height="1.5rem"
+                        width="1.5rem"
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="color: rgb(55, 55, 56)"
+                      >
+                        <path
+                          d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"
+                        ></path>
+                        <path
+                          d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"
+                        ></path>
+                      </svg>
+                      <strong>Aplicativo RH</strong>
+                    </div>
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      color="#373738"
+                      height="1.5rem"
+                      width="1.5rem"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="color: rgb(55, 55, 56)"
+                    >
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                      ></path>
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="pt-4 px-2">
+                    Aplicativo RH que fiz o back-end com Java e Spring, e o front-end com TypeScript e Angular, utilizei a
+                    bibloteca Hibernate para criar um banco de dados em PostgreSQL.
+                  </p>
+                  <div class="technologies pt-2">
+                    <span>Angular</span>
+                    <span>Spring</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg coll">
+            <div class="projectItem">
+              <div class="projectItemContent">
+                <a target="_blank" href="https://github.com/pvscarelli/SiteDeReceitasAngular">
+                  <div class="heading d-flex justify-content-between">
+                    <div>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 16 16"
+                        color="#373738"
+                        height="1.5rem"
+                        width="1.5rem"
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="color: rgb(55, 55, 56)"
+                      >
+                        <path
+                          d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"
+                        ></path>
+                        <path
+                          d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"
+                        ></path>
+                      </svg>
+                      <strong>Site de Receitas</strong>
+                    </div>
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      color="#373738"
+                      height="1.5rem"
+                      width="1.5rem"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="color: rgb(55, 55, 56)"
+                    >
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                      ></path>
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="pSpace">
+                    <p class="pt-4 px-2">Plataforma de receitas onde o usuário pode ver e buscar por receitas em inglês</p>
+                  </div>
+                  <div class="technologies pt-2">
+                    <span>TypeScript</span>
+                    <span>Bootstrap</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg coll">
+            <div class="projectItem">
+              <div class="projectItemContent">
+                <a target="_blank" href="https://github.com/pvscarelli/EstruturaDeDados">
+                  <div class="heading d-flex justify-content-between">
+                    <div>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 16 16"
+                        color="#373738"
+                        height="1.5rem"
+                        width="1.5rem"
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="color: rgb(55, 55, 56)"
+                      >
+                        <path
+                          d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"
+                        ></path>
+                        <path
+                          d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"
+                        ></path>
+                      </svg>
+                      <strong>Estrutura de Dados</strong>
+                    </div>
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      color="#373738"
+                      height="1.5rem"
+                      width="1.5rem"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="color: rgb(55, 55, 56)"
+                    >
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                      ></path>
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="pt-4 px-2">Repositório de exercícios da matéria de Algoritmo e Estrutura de Dados da FURB (2024/1)</p>
+                  <div class="technologies pt-2">
+                    <span>Java</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg coll">
+            <div class="projectItem">
+              <div class="projectItemContent">
+                <a target="_blank" href="https://github.com/pvscarelli/onebitX">
+                  <div class="heading d-flex justify-content-between">
+                    <div>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 16 16"
+                        color="#373738"
+                        height="1.5rem"
+                        width="1.5rem"
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="color: rgb(55, 55, 56)"
+                      >
+                        <path
+                          d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"
+                        ></path>
+                        <path
+                          d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"
+                        ></path>
+                      </svg>
+                      <strong>onebitX</strong>
+                    </div>
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      color="#373738"
+                      height="1.5rem"
+                      width="1.5rem"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="color: rgb(55, 55, 56)"
+                    >
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                      ></path>
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="pt-4 px-2">
+                    Site do projeto final que fiz do curso da OneBitCode, onde foi dado um site como referência e tentei fazer um
+                    igual
+                  </p>
+                  <div class="technologies pt-2">
+                    <span>Bootstrap</span>
+                    <span>SCSS</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg coll">
+            <div class="projectItem">
+              <div class="projectItemContent">
+                <a target="_blank" href="https://github.com/pvscarelli/ControleDeGastosEReceitas">
+                  <div class="heading d-flex justify-content-between">
+                    <div>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 16 16"
+                        color="#373738"
+                        height="1.5rem"
+                        width="1.5rem"
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="color: rgb(55, 55, 56)"
+                      >
+                        <path
+                          d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"
+                        ></path>
+                        <path
+                          d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"
+                        ></path>
+                      </svg>
+                      <strong>Gastos e Receitas</strong>
+                    </div>
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      color="#373738"
+                      height="1.5rem"
+                      width="1.5rem"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="color: rgb(55, 55, 56)"
+                    >
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                      ></path>
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="pt-4 px-2">
+                    Trabalho final da matéria de Programação Orientada a Objetos da FURB (2023/2), o aplicativo faz um controle
+                    total de gastos e receitas por meio de uma interface gráfica
+                  </p>
+                  <div class="technologies pt-2">
+                    <span>Java</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg coll">
+            <div class="projectItem">
+              <div class="projectItemContent">
+                <a target="_blank" href="https://github.com/pvscarelli/FormComBootstrap/tree/main">
+                  <div class="heading d-flex justify-content-between">
+                    <div>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 16 16"
+                        color="#373738"
+                        height="1.5rem"
+                        width="1.5rem"
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="color: rgb(55, 55, 56)"
+                      >
+                        <path
+                          d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"
+                        ></path>
+                        <path
+                          d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"
+                        ></path>
+                      </svg>
+                      <strong>Formulário com Bootstrap</strong>
+                    </div>
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      color="#373738"
+                      height="1.5rem"
+                      width="1.5rem"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="color: rgb(55, 55, 56)"
+                    >
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                      ></path>
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="pt-4 px-2">
+                    Landing page que fiz com foco em praticar Bootstrap e responsividade, exercíco do curso da OneBitCode
+                  </p>
+                  <div class="technologies pt-2">
+                    <span>Bootstrap</span>
+                    <span>SCSS</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Script bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
