@@ -11,8 +11,11 @@ body {
   background-color: #272727;
 }
 
+.pfp {
+  max-width: 600px;
+}
 .intro {
-  height: 86vh;
+  height: 88vh;
   padding-top: 13%;
   display: flex;
   justify-content: center;
@@ -91,7 +94,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   height: 200px;
-  margin-top: 15px;
+  margin-top: 5%;
 }
 .projectItem a {
   text-decoration: none;
@@ -113,6 +116,10 @@ body {
 
 .projectItemContent {
   padding: 15px;
+}
+
+.projectsContent {
+  margin-top: 8%;
 }
 
 .technologies span {
