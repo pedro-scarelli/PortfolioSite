@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #272727;
+  background-color: #f5f5f5;
 }
 
 .pfp {
@@ -24,20 +24,20 @@ body {
 }
 .name {
   font-family: "Montserrat", sans-serif;
-  color: #ffd700;
+  color: #000000;
   padding-bottom: 42px;
 }
 
 .typewriter-container {
   overflow: hidden;
-  border-right: 2px solid #fff;
+  border-right: 2px solid #000;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 3px;
 }
 #typewriter-text {
   display: inline-block;
-  color: #fff;
+  color: #000;
   font-size: 24px;
   margin-bottom: 0;
 }
@@ -47,7 +47,6 @@ body {
 }
 .linkedinLogo {
   width: 38px;
-  padding-bottom: 5px;
 }
 
 .githubLogo {
@@ -65,21 +64,21 @@ body {
 }
 
 .apresentation {
-  color: #ffd700;
+  color: #272727;
   font-size: 50px;
   font-weight: bold;
   width: 400px;
 }
 
 .apresentationText {
-  color: white;
+  color: #000000;
   font-size: 22px;
   text-align: justify;
   line-height: 1.5;
 }
 
 .projectsTitle {
-  color: #ffd700;
+  color: #272727;
   font-size: 50px;
   font-weight: bold;
 }
@@ -90,7 +89,7 @@ body {
 }
 
 .projectItem {
-  background-color: white;
+  background-color: #272727;
   border-radius: 5px;
   cursor: pointer;
   height: 200px;
@@ -98,7 +97,7 @@ body {
 }
 .projectItem a {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-size: 18px;
 }
 
@@ -123,12 +122,12 @@ body {
 }
 
 .technologies span {
-  background-color: #ffd700;
+  background-color: #b0b0b0;
   padding: 8px 11px;
   border-radius: 15px;
   margin-top: auto;
   vertical-align: end;
-  color: #272727;
+  color: #ffffff;
   font-weight: bolder;
 }
 
